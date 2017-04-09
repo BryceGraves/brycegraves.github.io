@@ -62,7 +62,7 @@ h1 {
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
-  font-size: 200px;
+  font-size: 5em;
   color: black;
 }
 
@@ -71,6 +71,6 @@ h2 {
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
-  font-size: 80px;
+  font-size: 2em;
   color: black;
 }
