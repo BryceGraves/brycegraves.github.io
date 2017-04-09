@@ -76,3 +76,22 @@ h2 {
   font-size: 2em;
   color: black;
 }
+
+h3 {
+  padding: 1em, 1em, 1em, 1em;
+  font-family: Verdana, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  font-size: 5em;
+  color: black;
+}
+
+h4 {
+  font-family: Verdana, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  font-size: 2em;
+  color: black;
+}
