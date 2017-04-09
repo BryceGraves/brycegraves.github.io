@@ -58,11 +58,8 @@ a {
   padding: 1em;
 }
 
-p {
-  padding: 1em, 1em, 1em, 1em;
-}
-
 h1 {
+  padding: 1em, 1em, 1em, 1em;
   font-family: Verdana, sans-serif;
   font-style: normal;
   font-variant: normal;
