@@ -55,7 +55,12 @@ a {
     color: #009ce0; }
 
 #main {
-  padding: 50px; }
+  padding: 1em;
+}
+
+p {
+  padding: 1em, 1em, 1em, 1em;
+}
 
 h1 {
   font-family: Verdana, sans-serif;
