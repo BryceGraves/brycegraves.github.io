@@ -11,15 +11,15 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 1;
-  padding: 1;
-  border: 1;
+  margin: 0.5;
+  padding: 0.5;
+  border: 0.5;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
 
 body {
-  line-height: 1; }
+  line-height: 0.5; }
 
 ol, ul {
   list-style: none; }
