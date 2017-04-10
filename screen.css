@@ -11,7 +11,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
+  margin: 5;
   padding: 2;
   border: 2;
   font-size: 100%;
@@ -19,7 +19,7 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 body {
-  line-height: 5; }
+  line-height: 1; }
 
 ol, ul {
   list-style: none; }
@@ -55,11 +55,12 @@ a {
     color: #009ce0; }
 
 #main {
+
   padding: 2em;
 }
 
 h1 {
-  padding: 1em, 1em, 1em, 1em;
+  text-decoration: underline;
   font-family: Verdana, sans-serif;
   font-style: normal;
   font-variant: normal;
@@ -69,6 +70,7 @@ h1 {
 }
 
 h2 {
+  text-decoration: underline;
   font-family: Verdana, sans-serif;
   font-style: normal;
   font-variant: normal;
@@ -78,6 +80,7 @@ h2 {
 }
 
 h3 {
+  text-decoration: underline;
   font-family: Verdana, sans-serif;
   font-style: normal;
   font-variant: normal;
@@ -87,10 +90,15 @@ h3 {
 }
 
 h4 {
+  text-decoration: underline;
   font-family: Verdana, sans-serif;
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
   font-size: 2em;
   color: black;
+}
+
+p {
+  text-indent: 50px;
 }
