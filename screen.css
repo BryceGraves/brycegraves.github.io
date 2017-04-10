@@ -19,7 +19,8 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 body {
-  line-height: 1; }
+  line-height: 1;
+  background-color: green; }
 
 ol, ul {
   list-style: none; }
