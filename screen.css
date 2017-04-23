@@ -97,6 +97,15 @@ h4 {
   color: white;
 }
 
+h5 {
+  font-family: Verdana, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  font-size: 2em;
+  color: white;
+}
+
 p {
   text-indent: 20px;
 }
@@ -105,4 +114,9 @@ div {
   background-color: grey;
   margin-left: 10em;
   margin-right: 10em;
+}
+
+.project img {
+  width: 400px;
+  height: 400px;
 }
