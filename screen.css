@@ -20,7 +20,7 @@ time, mark, audio, video {
 
 body {
   line-height: 1;
-  background-color: green; }
+  background-color: black; }
 
 ol, ul {
   list-style: none; }
@@ -67,7 +67,7 @@ h1 {
   font-variant: normal;
   font-weight: 500;
   font-size: 4em;
-  color: black;
+  color: white;
 }
 
 h2 {
@@ -76,7 +76,7 @@ h2 {
   font-variant: normal;
   font-weight: 500;
   font-size: 2em;
-  color: black;
+  color: white;
 }
 
 h3 {
@@ -85,7 +85,7 @@ h3 {
   font-variant: normal;
   font-weight: 500;
   font-size: 2em;
-  color: black;
+  color: white
 }
 
 h4 {
@@ -94,13 +94,15 @@ h4 {
   font-variant: normal;
   font-weight: 500;
   font-size: 2em;
-  color: black;
+  color: white;
 }
 
 p {
-  text-indent: 30px;
+  text-indent: 20px;
 }
 
 div {
-  background-color: lightgreen;
+  background-color: grey;
+  margin-left: 10em;
+  margin-right: 10em;
 }
