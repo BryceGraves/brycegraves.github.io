@@ -1,14 +1,14 @@
 import React from 'react';
 
-import { Route, HashRouter } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import Home from './containers/Home';
 
 const App = () => {
   return (
-    <HashRouter>
-      <Route exact path="/" component={Home} />
-    </HashRouter>
+    <Switch>
+      <Route exact path="/test" component={Home} />
+    </Switch>
   );
 };
 
