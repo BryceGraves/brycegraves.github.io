@@ -1,4 +1,5 @@
 import { combineReducers } from 'redux';
-// TODO: add reducers here
 
-export default combineReducers({});
+import nav from './nav';
+
+export default combineReducers({ nav });
