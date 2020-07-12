@@ -20,12 +20,12 @@ const Home = () => {
           </Card.Content>
         </Card>
       </Grid.Column>
-      <Grid.Column width={12} className="py-4 pr-4 pl-2">
+      <Grid.Column width={12} className="pt-4">
         <Header as="h2" icon textAlign="center">
           <Icon name="user circle" circular />
           <Header.Content>About Me</Header.Content>
         </Header>
-        <Segment>
+        <Segment className="mx-1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
           ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -35,7 +35,7 @@ const Home = () => {
           <Icon name="cogs" circular />
           <Header.Content>Knowledge</Header.Content>
         </Header>
-        <Segment>
+        <Segment className="mx-1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
           ullamco laboris nisi ut aliquip ex ea commodo consequat.
