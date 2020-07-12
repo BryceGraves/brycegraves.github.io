@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <Container>
       <Grid columns={2} divided>
-        <Grid.Column width={4}>
+        <Grid.Column width={4} mobile={6}>
           <Card>
             <Image src={image} wrapped ui={false} />
             <Card.Content>
@@ -21,7 +21,7 @@ const Home = () => {
             </Card.Content>
           </Card>
         </Grid.Column>
-        <Grid.Column width={12}>
+        <Grid.Column width={12} mobile={10}>
           <Header as="h2" icon textAlign="center">
             <Icon name="user circle" circular />
             <Header.Content>About Me</Header.Content>
