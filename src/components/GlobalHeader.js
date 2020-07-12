@@ -1,47 +1,32 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
-import { useDispatch } from 'react-redux';
 
-import { setNavUrl } from '../actions';
-
+import { Link } from 'react-router-dom';
 import { Menu } from 'semantic-ui-react';
 
 const mapStateToProps = (state) => {
   return {
-    url: state.nav.url,
+    url: state.router.location.pathname,
   };
 };
 
 const GlobalHeader = ({ url }) => {
-  const dispatch = useDispatch();
-
-  const handleItemClick = useCallback(
-    (newLocation) => {
-      dispatch(setNavUrl(newLocation));
-    },
-    [dispatch]
-  );
-
   return (
     <>
       <Menu pointing secondary>
-        <Menu.Item name="home" active={url === '/'} onClick={() => handleItemClick('/')} />
-        <Menu.Item
-          name="messages"
-          active={url === '/test'}
-          onClick={() => handleItemClick('/test')}
-        />
-        <Menu.Item
-          name="friends"
-          active={url === '/not-test'}
-          onClick={() => handleItemClick('/not-test')}
-        />
+        <Link to="/">
+          <Menu.Item name="home" active={url === '/'} />
+        </Link>
+        <Link to="/about">
+          <Menu.Item name="about" active={url === '/about'} />
+        </Link>
+        <Link to="/art-project">
+          <Menu.Item name="art project" active={url === '/art-project'} />
+        </Link>
         <Menu.Menu position="right">
-          <Menu.Item
-            name="logout"
-            active={url === '/maybe-test'}
-            onClick={() => handleItemClick('/maybe-test')}
-          />
+          <Link to="/projects">
+            <Menu.Item name="projects" active={url === '/projects'} />
+          </Link>
         </Menu.Menu>
       </Menu>
     </>
