@@ -6,8 +6,8 @@ import image from '../images/me.jpg';
 
 const Home = () => {
   return (
-    <Grid columns={2} divided stackable>
-      <Grid.Column width={4} className="d-flex justify-content-center py-4">
+    <Grid columns={2} container divided stackable>
+      <Grid.Column width={4} className="d-flex justify-content-center align-items-start pt-3">
         <Card>
           <Image src={image} wrapped ui={false} />
           <Card.Content>
