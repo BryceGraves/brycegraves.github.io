@@ -35,14 +35,17 @@ const ArtProject = () => {
         being a geometric representation of an animal in nature. Some background on Charley Harper:
         Charley Harper was an American Modernist Wildlife artist who was born in the town of
         Frenchton, West Virginia on the 4th of August 1922. His rural upbringing shaped the focus of
-        his artwork throughout this professional career.
+        his artwork throughout this professional career. He touted his style as minimal realism. He
+        worked to capture the "essence" of what he was trying to convey with the fewest visible
+        elements as possible. This style took the complexity of living organism such as birds and
+        broke them down into their simplest forms, shapes.
       </Segment>
       <Divider />
       <Header as="h2" icon textAlign="center">
         <Icon name="image" circular />
         <Header.Content>Gallary</Header.Content>
       </Header>
-      <Grid columns={3} divided stackable>
+      <Grid columns={4} divided stackable>
         <Grid.Row>
           <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
             <Card>
@@ -67,7 +70,7 @@ const ArtProject = () => {
                   fluid
                   href="https://ohiomagazine.imgix.net/sitefinity/images/default-source/articles/2016/august-2016/c-harper-pg32_name_is_puffin.jpg?sfvrsn=bb90d238_2&w=960&auto=compress%2cformat"
                 >
-                  Original
+                  Image Source
                 </Button>
               </Card.Content>
             </Card>
@@ -95,7 +98,7 @@ const ArtProject = () => {
                   fluid
                   href="https://ohiomagazine.azureedge.net/sitefinity/images/default-source/articles/2016/august-2016/c-harper-pg35_watermelon_moon.jpg?sfvrsn=ab90d238_2"
                 >
-                  Original
+                  Image Source
                 </Button>
               </Card.Content>
             </Card>
@@ -123,13 +126,11 @@ const ArtProject = () => {
                   fluid
                   href="https://ohiomagazine.azureedge.net/sitefinity/images/default-source/articles/2016/august-2016/c-harper-pg99_vowlentine.jpg?sfvrsn=b990d238_2"
                 >
-                  Original
+                  Image Source
                 </Button>
               </Card.Content>
             </Card>
           </Grid.Column>
-        </Grid.Row>{' '}
-        <Grid.Row>
           <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
             <Card>
               <Image
@@ -152,11 +153,13 @@ const ArtProject = () => {
                   fluid
                   href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/c/a/cardinal_closeup.jpg"
                 >
-                  Original
+                  Image Source
                 </Button>
               </Card.Content>
             </Card>
           </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
           <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
             <Card>
               <Image
@@ -180,7 +183,7 @@ const ArtProject = () => {
                   fluid
                   href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/a/baltimore-oriole_1.jpg"
                 >
-                  Original
+                  Image Source
                 </Button>
               </Card.Content>
             </Card>
@@ -208,7 +211,409 @@ const ArtProject = () => {
                   fluid
                   href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/a/barn-swallow.jpg"
                 >
-                  Original
+                  Image Source
+                </Button>
+              </Card.Content>
+            </Card>
+          </Grid.Column>
+          <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
+            <Card>
+              <Image
+                src="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/a/n/anhinga.jpg"
+                wrapped
+                ui={false}
+              />
+              <Card.Content>
+                <Card.Header>Anhinga</Card.Header>
+                <Card.Description>
+                  "This bird has been spear-gunning his grub for eighty million years, so - don't
+                  worry - he knows what to do next with his fish kebab. Silent and alert, he patrols
+                  southern swamp waters with hull submerged and periscope up. Time to eat: he
+                  decreases buoyancy and takes 'er down. Bluegill to starb'd - fire ONE! While his
+                  dinner settles, he'll hang his dripping wings out to dry. Indians of the Amazon
+                  named him nhinga. Why? Why not?"
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Button
+                  fluid
+                  href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/a/n/anhinga.jpg"
+                >
+                  Image Source
+                </Button>
+              </Card.Content>
+            </Card>
+          </Grid.Column>
+          <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
+            <Card>
+              <Image
+                src="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/d/a/dam-diligent.jpg"
+                wrapped
+                ui={false}
+              />
+              <Card.Content>
+                <Card.Header>Dam Diligent</Card.Header>
+                <Card.Description>
+                  "The beaver's work ethic is a part of our national heritage. He's that character
+                  we all have a gnawing feeling we ought to keep as busy as. And indeed some of us
+                  have kept so busy that we've taken away his job of impeding and impounding the
+                  free-flowing waters of America. But when it comes to cost-benefit ratios and
+                  environmental impact statements, he's better than the Corps of Engineers by a
+                  damsite. So how can you best preserve a pristine stream? Leave it to beavers."
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Button
+                  fluid
+                  href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/d/a/dam-diligent.jpg"
+                >
+                  Image Source
+                </Button>
+              </Card.Content>
+            </Card>
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
+            <Card>
+              <Image
+                src="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/i/birdwatcher.jpg"
+                wrapped
+                ui={false}
+              />
+              <Card.Content>
+                <Card.Header>Birdwatcher</Card.Header>
+                <Card.Description>
+                  "There are cat people and there are bird people. Then there are the cat-bird
+                  people, who know that their favorite feline is the ultimate birdwatcher. Who needs
+                  binoculars? This bird lover gets close enough to count the feathers without
+                  snapping a dry twig, and she knows the best place to fatter her life list—under
+                  the bird feeder! Her eye is on the sparrow, which is, for her, just as fulfilling
+                  as having it on the condor. But the sparrow will be saved by the bell—this cat is
+                  a cat-bird people's cat."
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Button
+                  fluid
+                  href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/i/birdwatcher.jpg"
+                >
+                  Image Source
+                </Button>
+              </Card.Content>
+            </Card>
+          </Grid.Column>
+          <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
+            <Card>
+              <Image
+                src="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/e/beetle_battle.jpg"
+                wrapped
+                ui={false}
+              />
+              <Card.Content>
+                <Card.Header>Beetle Battle</Card.Header>
+                <Card.Description>
+                  "It's two falls out of three for the guy in the mahogany trunks. Stag beetles have
+                  the rich finish of fine, old woodwork and the nightmarish mandibles of man-eating
+                  monsters. They also have all the athletic grace of bulldozers, which is why they
+                  spend a lot of time flat on their backs, treading air, totally helpless. Is this
+                  wrestling match a fake? Not on your scissors hold! It's for the loving cup. And
+                  where is she? Bet she got tired of waiting around and went stag."
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Button
+                  fluid
+                  href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/e/beetle_battle.jpg"
+                >
+                  Image Source
+                </Button>
+              </Card.Content>
+            </Card>
+          </Grid.Column>
+          <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
+            <Card>
+              <Image
+                src="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/e/better_mousetrap.jpg"
+                wrapped
+                ui={false}
+              />
+              <Card.Content>
+                <Card.Header>Better Mousetrap</Card.Header>
+                <Card.Description>
+                  "The barn owl wears a valentine for a face, but he never sends it - he brings it.
+                  And like all small creatures of the night, the harvest mouse knows well its
+                  message: BE MINE. The owl-mouse affair has been going on for so long that it is a
+                  classic example of the enforcement of nature's unrepealable law that some must die
+                  in order that others may live. Is there a villain in the piece? Sure. The barn owl
+                  is a killer, say we who constantly strive to build a better mousetrap."
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Button
+                  fluid
+                  href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/e/better_mousetrap.jpg"
+                >
+                  Image Source
+                </Button>
+              </Card.Content>
+            </Card>
+          </Grid.Column>
+          <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
+            <Card>
+              <Image
+                src="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/a/baffling_belly_3.jpg"
+                wrapped
+                ui={false}
+              />
+              <Card.Content>
+                <Card.Header>Baffling Belly</Card.Header>
+                <Card.Description>
+                  "Ever see the red-bellied woodpecker perch on a birch, potato beetle in beak?
+                  Neither did the artist, so he painted this picture to find out how it would look.
+                  This is the bird with the belly that baffles beginning birders, so its zebra back
+                  is turned toward you to avoid a credibility crisis: could you ever again trust the
+                  names of the golden-cheeked warbler, the rufous-sided towhee, the rose-breasted
+                  grosbeak—even the blue-footed booby—after seeing the red-belly's belly? It's
+                  almost all white!"
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Button
+                  fluid
+                  href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/a/baffling_belly_3.jpg"
+                >
+                  Image Source
+                </Button>
+              </Card.Content>
+            </Card>
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
+            <Card>
+              <Image
+                src="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/c/l/claws_1.jpg"
+                wrapped
+                ui={false}
+              />
+              <Card.Content>
+                <Card.Header>Claws</Card.Header>
+                <Card.Description>
+                  "Suddenly, from out of the shadowy depths of prehistory, terror strikes the beach
+                  and it's claws vs. paws and jaws. In the struggle to survive, all armaments are
+                  employed, so what is the ultimate weapon? Size? Maybe, but it's mini, not maxi,
+                  that matters. Who has bugged you more lately: mastodons or mosquitoes? Ask the
+                  vanishing whale if bigger is better. In a predatory world, it's survival of the
+                  fittest, not the fattest. And in a pinch, claws give pause to jaws."
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Button
+                  fluid
+                  href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/c/l/claws_1.jpg"
+                >
+                  Image Source
+                </Button>
+              </Card.Content>
+            </Card>
+          </Grid.Column>
+          <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
+            <Card>
+              <Image
+                src="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/c/o/cornprone.jpg"
+                wrapped
+                ui={false}
+              />
+              <Card.Content>
+                <Card.Header>Cornprone</Card.Header>
+                <Card.Description>
+                  "A raccoon can eat his weight in roastin' ears and the more he eats the more he
+                  weighs, and the more he weighs…well you see what I mean. Watch for him on those
+                  warm summer nights when the kernel swells the husk and the gardener dreams of
+                  feasts forthcoming from his backyard cornucopia—the masked marauder munching by
+                  moon-light, raccoon on the cob. Come morning, hear the gardener mutter, Nothin'
+                  left but th' fodder. But, aw shucks, ain't he a cute little fritter?"
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Button
+                  fluid
+                  href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/c/o/cornprone.jpg"
+                >
+                  Image Source
+                </Button>
+              </Card.Content>
+            </Card>
+          </Grid.Column>
+          <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
+            <Card>
+              <Image
+                src="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/i/big_rac_attack.jpg"
+                wrapped
+                ui={false}
+              />
+              <Card.Content>
+                <Card.Header>Big Rac Attack</Card.Header>
+                <Card.Description>
+                  "Better be on the lookout when you cook out. Let that burger aroma roam around the
+                  neighborhood and you're inviting a Big Rac Attack. And can you blame them?
+                  Raccoons eat out all the time and—well, wouldn't you welcome a nice home-cooked
+                  meal now and then? But did you buy enough burger to feed this raccpack? What
+                  happens when you're down to the last patty? Serve the dog food. The cat food.
+                  Table scraps. Then let nature take its course—survival of the fattest."
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Button
+                  fluid
+                  href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/i/big_rac_attack.jpg"
+                >
+                  Image Source
+                </Button>
+              </Card.Content>
+            </Card>
+          </Grid.Column>
+          <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
+            <Card>
+              <Image
+                src="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/i/bittern_suite_1.jpg"
+                wrapped
+                ui={false}
+              />
+              <Card.Content>
+                <Card.Header>Bittern Suite</Card.Header>
+                <Card.Description>
+                  "It's not the Waldorf, but it's home and even with six quibbling siblings in the
+                  bed (and five in the middle) there's love along with the lumps. Life for an itty
+                  bitty bittern is sweeter than bitter, but mealtimes are messy: breakfast in
+                  bed…and lunch…and dinner too. And no maid service. Is that why they hold their
+                  noses in the air? Or are they hoity-toity? neither. They're melting into the
+                  marshscape by mimicking the tall grass swaying in the breeze. Nobody can hide
+                  better'n a bittern."
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Button
+                  fluid
+                  href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/i/bittern_suite_1.jpg"
+                >
+                  Image Source
+                </Button>
+              </Card.Content>
+            </Card>
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
+            <Card>
+              <Image
+                src="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/l/blue_jay_bathing.jpg"
+                wrapped
+                ui={false}
+              />
+              <Card.Content>
+                <Card.Header>Blue Jay Bathing</Card.Header>
+                <Card.Description>
+                  "Here's your friendly neighborhood loudmouth, big on law and order, publishing
+                  WANTED posters in stereo. The blue jay is always where the action is because he
+                  starts it. A roving tomcat snaps a twig, a drowsy owl shifts his weight, a black
+                  snake changes his calligraphy and off goes the bluetailed burglar alarm, rounding
+                  up a posse for the big chase. But sometimes silence is golden, like when you're
+                  bathing in the brook, naked as a jaybird."
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Button
+                  fluid
+                  href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/l/blue_jay_bathing.jpg"
+                >
+                  Image Source
+                </Button>
+              </Card.Content>
+            </Card>
+          </Grid.Column>
+          <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
+            <Card>
+              <Image
+                src="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/r/brief_bio.png"
+                wrapped
+                ui={false}
+              />
+              <Card.Content>
+                <Card.Header>Brief Bio (Luna Moth)</Card.Header>
+                <Card.Description>
+                  "The life of a luna moth is one of nature's short stories. Even barring mishap,
+                  its span is so brief that it doesn't even have time to eat. And its biography may
+                  be shortened even further by a bat, an owl, or a boy making an insect collection.
+                  This male, hastening to reply to an invitation—sent by scent—from a female,
+                  encounters a largemouth bass. But the fish has problems, too. The river it calls
+                  home is badly polluted and the boy, tiring of trapping insects, is going fishing."
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Button
+                  fluid
+                  href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/r/brief_bio.png"
+                >
+                  Image Source
+                </Button>
+              </Card.Content>
+            </Card>
+          </Grid.Column>
+          <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
+            <Card>
+              <Image
+                src="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/r/brrrrthday.jpeg"
+                wrapped
+                ui={false}
+              />
+              <Card.Content>
+                <Card.Header>Brrrthday</Card.Header>
+                <Card.Description>
+                  "Is penguin parenthood planned? Let's scan their plan. It's 60 below in the
+                  rookery 60 miles inland where a pair of passionate penguins yield to the impulse
+                  to populate Antarctica. He incubates while she peregrinates, waddling back to the
+                  ocean (they are flightless) to feast on seafood (their only fare). Two months
+                  later she's back to feed their newborn by regurgitation, but no doggy bag for
+                  daddy. He waddles weakly away from fast to feast, 60 miles to go at 60 below. Cool
+                  plan - for sub-zero population growth."
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Button
+                  fluid
+                  href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/r/brrrrthday.jpeg"
+                >
+                  Image Source
+                </Button>
+              </Card.Content>
+            </Card>
+          </Grid.Column>
+          <Grid.Column className="d-flex flex-column justify-content-start align-items-center pt-3">
+            <Card>
+              <Image
+                src="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/c/l/clair_de_loon.png"
+                wrapped
+                ui={false}
+              />
+              <Card.Content>
+                <Card.Header>Clair de Loon</Card.Header>
+                <Card.Description>
+                  "All aboard for the moonlight cruise and concert under the stars, where this pair
+                  of piggybacking loonlings, only hours old, will bond to the ancestral songs of
+                  their kind. Hoots and wails, tremolos and yodels—it's hard to get a Handel on
+                  their Water Music, but it will make your spine tingle with its evocation of the
+                  awesome mystery of the universe. It's lyrical and hysterical: Mozart and madness,
+                  Beethoven and bebop. It's the Rite of Spring—with a dab of Debussy."
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Button
+                  fluid
+                  href="https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/c/l/clair_de_loon.png"
+                >
+                  Image Source
                 </Button>
               </Card.Content>
             </Card>
@@ -267,42 +672,10 @@ const ArtProject = () => {
         <Header.Content>Sources</Header.Content>
       </Header>
       <Segment className="mx-1">
-        <a href="https://www.charleyharperartstudio.com/">The Charley Harper Art Studio</a>
-      </Segment>
-      <Divider />
-      <Header as="h2" icon textAlign="center">
-        <Icon name="image" circular />
-        <Header.Content>Image sources</Header.Content>
-      </Header>
-      <Segment className="mx-1 text-break">
-        The name is puffin:
-        https://ohiomagazine.imgix.net/sitefinity/images/default-source/articles/2016/august-2016/c-harper-pg32_name_is_puffin.jpg?sfvrsn=bb90d238_2&w=960&auto=compress%2cformat
-        <br />
-        <br />
-        Watermelon Moon:
-        https://ohiomagazine.azureedge.net/sitefinity/images/default-source/articles/2016/august-2016/c-harper-pg35_watermelon_moon.jpg?sfvrsn=ab90d238_2
-        <br />
-        <br />
-        Vowlentine
-        https://ohiomagazine.azureedge.net/sitefinity/images/default-source/articles/2016/august-2016/c-harper-pg99_vowlentine.jpg?sfvrsn=b990d238_2
-        <br />
-        <br />
-        Cardinal Close-Up:
-        https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/c/a/cardinal_closeup.jpg
-        <br />
-        <br />
-        Baltimore Oriole:
-        https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/a/baltimore-oriole_1.jpg
-        <br />
-        <br />
-        Barn Swallow:
-        https://www.charleyharperartstudio.com/media/catalog/product/cache/6465499cf1ed769c06f2196045327753/b/a/barn-swallow.jpg
-        <br />
-        <br />
-        Original Cardinal:
-        https://www.charleyharperartstudio.com/media/wysiwyg/cardinal_footer_8x.webp
-        <br />
-        <br />
+        <a href="https://www.charleyharperartstudio.com/">The Charley Harper Art Studio</a> |
+        <a href="https://web.archive.org/web/20090324132719/http://www.peoplelandandwater.gov/people/nps_06-12-07_wildlife-artist-dead.cfm">
+          Wildlife Artist Charley Harper Dead at 84
+        </a>
       </Segment>
     </Container>
   );
