@@ -26,8 +26,16 @@ const ArtProject = () => {
         <Header.Content>Charley Harper</Header.Content>
       </Header>
       <Segment className="mx-1">
-        Wildlife artist Charley Harper was born in the town of Frenchton, West Virginia on the 4th
-        of August 1922.
+        As I went and looked for details about the Charley Harper and his work I was really
+        surprised with how soulless the sale of his work felt. Because of this ludicrous drive to
+        sell his art after he has passed I really struggled finding details about his art outside
+        how much I could pay to get one of his works on a mug and that I should really add it to my
+        cart. So I ended up going through and snagging pieces that had quotes from Charley Harper
+        that I could include with the photo to give it more context and meaning outside of it just
+        being a geometric representation of an animal in nature. Some background on Charley Harper:
+        Charley Harper was an American Modernist Wildlife artist who was born in the town of
+        Frenchton, West Virginia on the 4th of August 1922. His rural upbringing shaped the focus of
+        his artwork throughout this professional career.
       </Segment>
       <Divider />
       <Header as="h2" icon textAlign="center">
