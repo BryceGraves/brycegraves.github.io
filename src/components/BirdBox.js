@@ -105,8 +105,7 @@ const BirdBox = () => {
       .select(chartContainer.current)
       .append('svg')
       .attr('width', width)
-      .attr('height', height)
-      .style('border', '1px solid black');
+      .attr('height', height);
 
     // Bird legs
     line(leftWingX, bottomLeftWing, leftWingX, bottomLeftWing + 160, 3, svg);
