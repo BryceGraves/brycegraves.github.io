@@ -266,7 +266,7 @@ const ArtProject = () => {
         <Icon name="image" circular />
         <Header.Content>Image sources</Header.Content>
       </Header>
-      <Segment className="mx-1">
+      <Segment className="mx-1 text-break">
         The name is puffin:
         https://ohiomagazine.imgix.net/sitefinity/images/default-source/articles/2016/august-2016/c-harper-pg32_name_is_puffin.jpg?sfvrsn=bb90d238_2&w=960&auto=compress%2cformat
         <br />
