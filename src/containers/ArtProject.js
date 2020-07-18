@@ -4,6 +4,8 @@ import { Container, Divider, Grid, Header, Icon, Image, List, Segment } from 'se
 
 import BirdBox from '../components/BirdBox';
 
+import original from '../images/cardinal.png';
+
 const ArtProject = () => {
   return (
     <Container className="h-100">
@@ -17,7 +19,14 @@ const ArtProject = () => {
         laboris nisi ut aliquip ex ea commodo consequat.
       </Segment>
       <Divider />
-      <BirdBox />
+      <Grid columns={2} divided stackable>
+        <Grid.Column className="d-flex justify-content-center align-items-start pt-3">
+          <Image src={original} wrapped ui={false} />
+        </Grid.Column>
+        <Grid.Column className="d-flex justify-content-center align-items-start pt-3">
+          <BirdBox />
+        </Grid.Column>
+      </Grid>
     </Container>
   );
 };
