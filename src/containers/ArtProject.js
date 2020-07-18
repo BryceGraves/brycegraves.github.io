@@ -38,7 +38,10 @@ const ArtProject = () => {
         his artwork throughout this professional career. He touted his style as minimal realism. He
         worked to capture the "essence" of what he was trying to convey with the fewest visible
         elements as possible. This style took the complexity of living organism such as birds and
-        broke them down into their simplest forms, shapes.
+        broke them down into their simplest forms, shapes.{' '}
+        <strong>
+          Sorry this is short. But I assure you there are far more than 500 words of code.
+        </strong>
       </Segment>
       <Divider />
       <Header as="h2" icon textAlign="center">
