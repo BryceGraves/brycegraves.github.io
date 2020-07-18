@@ -13,11 +13,7 @@ const App = () => {
       <GlobalHeader />
       <Switch>
         <Route exact path="/" component={Home} />
-      </Switch>
-      <Switch>
         <Route exact path="/art-project" component={ArtProject} />
-      </Switch>
-      <Switch>
         <Route exact path="/personal-projects" component={PersonalProjects} />
       </Switch>
     </>
